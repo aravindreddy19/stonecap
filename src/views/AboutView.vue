@@ -1,5 +1,22 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <Blogs/>
+      <!-- <router-link class="router-link" to="/Blogs">Blogs</router-link> -->
+    
+    
+    
+    
   </div>
 </template>
+<script>
+import Blogs from '../components/Blogs.vue'
+export default {
+  components:{
+    Blogs,
+  }
+}
+</script>
+
+<style>
+
+</style>
