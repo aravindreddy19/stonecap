@@ -20,17 +20,7 @@
         </div>
       </div>
     </section>
-    <div class="bottom">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15232.180224874981!2d78.46873512860189!3d17.361564822218156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb978a6e1a939b%3A0xcb5a69e4aaf113fb!2sCharminar!5e0!3m2!1sen!2sin!4v1661415156773!5m2!1sen!2sin"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
+    
   </div>
 </template>
 
@@ -46,14 +36,20 @@ export default {
 }
 </script>
 
-<style>
-/* .eight { */
-    /* height: 100vh; */
-  /* } */
+<style >
+
+
+
+.eight{
+  /* background-color: cadetblue; */
+  height: 100vh;
+}
 
   .eight h1 {
-    margin-top: 3rem;
+    /* margin-top: 6rem; */
+    margin-left: 1rem;
     font-size: xx-large;
+    color: rgb(114, 35, 35);
   }
   .eight img {
     height: 15rem;
@@ -66,7 +62,7 @@ export default {
     display: flex;
     width: 70%;
     margin-left: 10rem;
-    margin-top: 3rem;
+    margin-top: 8rem;
   }
 
   .eight .blogs .blog {
@@ -85,13 +81,14 @@ export default {
     color: grey;
   }
 .bottom {
+  
     /* height: 60vh; */
     display: flex;
     justify-content: center;
   }
 
   .bottom iframe {
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     /* margin-bottom: 3rem; */
     width: 80%;
     box-shadow: 2px 2px 2px 2px gray;
@@ -99,4 +96,5 @@ export default {
 
 
 
-</style>
+
+</style>>

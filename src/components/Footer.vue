@@ -1,5 +1,5 @@
 <template>
-  <div id="footer">
+  <div class="footer">
     <section class="ten">
       <div class="one">
         <div class="brand">
@@ -28,7 +28,7 @@
         </ul>
       </div>
 
-      <div class="threee">
+      <div class="threeee">
         <ul>
           <li class="bold">Navigation</li>
           <li>Home</li>
@@ -49,7 +49,6 @@
       </div>
     </section>
     <!-- <div class="foot"></div> -->
-    
   </div>
 </template>
 
@@ -65,22 +64,24 @@ export default {
 };
 </script>
 
-<style>
+<style scoped >
+.footer{
+  background-color: #9f7777;
+}
 .ten {
-  /* margin-top: 20rem; */
+  margin-top: 8rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* width: 90%; */
-  /* margin-left: 3rem; */
+  width: 90%;
+  margin-left: 3rem;
 }
 
-
-
 .ten .brand {
-  /* display: flex; */
+  display: flex;
   /* line-height: 0px; */
-  /* margin-left: 0.5rem; */
+  margin-left: 0.5rem;
   color: blue;
+  margin-top: 2rem;
 }
 
 .ten .search img {
@@ -91,7 +92,7 @@ export default {
 
 .ten .search input {
   outline: none;
-  /* border: 1px solid; */
+  border: none;
   background-color: #dda95c;
   width: 70%;
   margin: 0.4rem;
@@ -104,19 +105,18 @@ export default {
   width: 75%;
   padding: 0rem;
   background-color: #dda95c;
-  margin-top: 1rem;
+  margin-top: -1rem;
 }
 
 .ten .one {
   display: flex;
   flex-direction: column;
-  margin: 2.5rem;
+  /* margin: 2.5rem; */
   height: 40vh;
 }
 
 .ten ul {
-  /* margin: 3rem; */
-
+  margin: 3rem;
   list-style: none;
 }
 
@@ -136,7 +136,7 @@ export default {
   height: 40vh;
 }
 
-.ten .threee {
+.ten .threeee {
   height: 40vh;
   background-color: transparent;
   margin-top: -0.5rem;
@@ -148,13 +148,13 @@ export default {
   background-color: transparent;
 }
 footer {
-  /* height: 10vh; */
+  height: 10vh;
   width: 100%;
   background-color: #ad9e87;
 }
 
 .ten li:hover {
-  color: crimson;
+  color: rgb(255, 255, 255);
 }
 /* .foot{
   margin-top: -3rem;
